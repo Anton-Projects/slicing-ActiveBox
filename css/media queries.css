@@ -2,208 +2,190 @@
 @media (min-width: 2400px) {
 	
 	html {
-		font-size: 28px;
+	font-size: 28px;
 	}
 }
 
 @media (min-width: 1800px) {
 	
 	html {
-		font-size: 20px;
+	  font-size: 20px;
 	}
 }
 
 @media (max-width: 1100px) {
 	
 	html {
-        font-size: 10px;
-    }
+    	  font-size: 10px;
+       }
 
-    .pic h3, .pic h4 {
-        font-size: 0.8em;
-    }
-
+	.pic h3, .pic h4 {
+     	  font-size: 0.8em;
+        }
 }
 
 @media (max-width: 950px) {
 
-    html {
-        font-size: 10px;
-    }
+    	html {
+          font-size: 10px;
+        }
 
-    nav {
-        position: relative;
-    }
+    	nav {
+          position: relative;
+        }
 
-    nav .show {
-        display: block;
-        padding: 1rem 1.25rem;
-    }
+	nav .show {
+          display: block;
+          padding: 1rem 1.25rem;
+        }
 
-    nav button {
-        font-size: 1.8em;
-    }
+    	nav button {
+          font-size: 1.8em;
+        }
 	
 	nav .logo {
-    flex: 20%;
-}
+          flex: 20%;
+        }
 
 	nav .logo img {
-    width: 50%;
-	height: auto;
-    margin: auto 0;
-}
+    	  width: 50%;
+	  height: auto;
+    	  margin: auto 0;
+	}
 
-    nav > ul {
-        display: none;
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        font-size: 2em;
-        background-color: #e84545;
-    }
+    	nav > ul {
+          display: none;
+          width: 100%;
+          position: absolute;
+          top: 100%;
+          right: 0;
+          font-size: 2em;
+          background-color: #e84545;
+    	}
 
-    nav > ul li {
-        padding: 1.2rem 0;
-        text-align: center;
-    }
+    	nav > ul li {
+          padding: 1.2rem 0;
+          text-align: center;
+    	}
 
-    nav > ul li a {
-        width: 100%;
-        border: 1px solid #e84545;
-    }
+    	nav > ul li a {
+          width: 100%;
+          border: 1px solid #e84545;
+    	}
 
-    nav > ul li a:hover {
-        border: 1px solid #f00;
-    }
+    	nav > ul li a:hover {
+          border: 1px solid #f00;
+    	}
 
-    header {
-        font-size: 0.8em;
-    }
+    	header {
+          font-size: 0.8em;
+    	}
 
-    .features {
-        margin-bottom: 3rem;
-    }
+    	.features {
+          margin-bottom: 3rem;
+    	}
 
-    .features .feature {
-        box-sizing: initial;
-        margin: 0.5rem auto;
-    }
+    	.features .feature {
+          box-sizing: initial;
+          margin: 0.5rem auto;
+    	}
 
-    .works {
-        margin: 3rem auto;
-    }
+    	.works {
+          margin: 3rem auto;
+    	}
 
-    .pic h3, .pic h4 {
-        font-size: 0.7em;
-    }
+    	.pic h3, .pic h4 {
+          font-size: 0.7em;
+    	}
 
-    .our-team {
-        flex-wrap: wrap;
-        font-size: 0.8em;
-    }
+    	.our-team {
+          flex-wrap: wrap;
+          font-size: 0.8em;
+    	}
 
-    .team {
-        width: 48%;
-        margin: 0.5rem auto;
-    }
+    	.team {
+          width: 48%;
+          margin: 0.5rem auto;
+    	}
 
-    .team p {
-        font-size: 1.3em;
-    }
+    	.team p {
+          font-size: 1.3em;
+    	}
 
-    .testimonials {
-        font-size: 0.35em;
-        margin: 3rem auto;
-    }
+    	.testimonials {
+          font-size: 0.35em;
+          margin: 3rem auto;
+    	}
 
-    .testimonial-text p {
-        font-size: 2em;
-    }
+    	.testimonial-text p {
+          font-size: 2em;
+    	}
 
-    .download {
-        width: 80%;
-    }
-
-    .download > h5, .download > p {
-        font-size: 1.4em;
-        margin: 0.5rem auto;
-    }
-
+    	.download > h5, .download > p {
+          font-size: 1.4em;
+          margin: 0.5rem auto;
+    	}
 }
 
 @media (max-width: 800px) {
+	
+	html {
+          font-size: 0.6em;
+	}
 
-    html {
-        font-size: 0.6em;
-    }
+    	header {
+          font-size: 0.5em;
+    	}
 
-    body {
-        padding: 0;        
-    }
+    	.features {
+          width: 80%;
+          margin-bottom: 2rem;
+	  font-size: 0.8em;
+    	}
 
-    header {
-        font-size: 0.5em;
-    }
-
-    .features {
-        width: 80%;
-        margin-bottom: 2rem;
-		font-size: 0.8em;
-    }
-
-    .features .feature {
-        /* box-sizing: initial; */
-        margin: 0.5rem auto;
-        width: 45%;
-    }
+    	.features .feature {
+          margin: 0.5rem auto;
+          width: 45%;
+    	}
 	
 	.team {
-		font-size: 0.75em;
+	  font-size: 0.75em;
 	}
 	
 	.works .pic h3, .works .pic h4 {
-		font-size: 0.5em;
-		transform: translate(-25%, -50%);
-		width: 100%;
+  	  font-size: 0.5em;
+	  transform: translate(-25%, -50%);
+	  width: 100%;
 	}
 	
 	.testimonial-text {
-		font-size: 1em;
+	  font-size: 1em;
 	}
 	
 	.download {
-		font-size: 0.8em;
+	  font-size: 0.8em;
 	}
 	
 	.download button {
-		font-size: 0.8em;
+	  font-size: 0.8em;
 	}
 	
 	footer {
-		font-size: 0.8em;
+	  font-size: 0.8em;
 	}
 	
 	.link span {
-    display: flex;
-	width: 100%;
-	margin: 0 auto;
+    	  display: flex;
+	  width: 100%;
+	  margin: 0 auto;
 	}
 	
 	.link {
-    display: flex;
-    flex-direction: column;
-    flex: 33%;
-    margin: 1rem auto;
-    padding: 1rem;
+	  display: flex;
+    	  flex-direction: column;
+    	  flex: 33%;
+    	  margin: 1rem auto;
+    	  padding: 1rem;
 	}
-
-	/* .link i { */
-		/* display: flex; */
-		/* flex-direction: row; */
-	/* flex: 30%; */
-	/* align-items: center; */
-	/* } */
 }
 
