@@ -74,8 +74,9 @@ nav > ul li a:hover {
     margin: 0 auto;
 }
 
-.header-text span, .footer-info span:first-child {
+.header-text span {
     display: block;
+
 }
 
 .header-text p {
