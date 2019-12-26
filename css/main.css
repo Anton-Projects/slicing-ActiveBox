@@ -55,7 +55,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-		font-size: 1em;
+    font-size: 1em;
 
 }
 
@@ -78,7 +78,7 @@
 }
 
 .works .pic-one:hover {
-    background-image: url('pic11.jpg');
+    background-image: url('../images/pic11.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
@@ -86,7 +86,7 @@
 }
 
 .works .pic-two:hover {
-    background-image: url('pic21.jpg');
+    background-image: url('../images/pic21.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
@@ -94,7 +94,7 @@
 }
 
 .works .pic-three:hover {
-    background-image: url('pic31.jpg');
+    background-image: url('../images/pic31.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
@@ -102,7 +102,7 @@
 }
 
 .works .pic-four:hover {
-    background-image: url('pic41.jpg');
+    background-image: url('../images/pic41.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
@@ -110,7 +110,7 @@
 }
 
 .works .pic-five:hover {
-    background-image: url('pic51.jpg');
+    background-image: url('../images/pic51.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
@@ -118,7 +118,7 @@
 }
 
 .works .pic-six:hover {
-    background-image: url('pic61.jpg');
+    background-image: url('../images/pic61.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
@@ -126,7 +126,7 @@
 }
 
 .works .pic-seven:hover {
-    background-image: url('pic71.jpg');
+    background-image: url('../images/pic71.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
@@ -134,7 +134,7 @@
 }
 
 .works .pic-eight:hover {
-    background-image: url('pic81.jpg');
+    background-image: url('../images/pic81.jpg');
     background-size: cover;
     border: 1px solid #65f;
     cursor: pointer;
