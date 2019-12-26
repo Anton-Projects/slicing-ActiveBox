@@ -120,11 +120,16 @@
     	.testimonial-text p {
           font-size: 2em;
     	}
-
-    	.download > h5, .download > p {
-          font-size: 1.4em;
+	
+	.download > h5 {
+          font-size: 1em;
           margin: 0.5rem auto;
     	}
+	
+	.download > p {
+	  font-size: 1.5em;
+          margin: 0.5rem auto;
+	}
 }
 
 @media (max-width: 800px) {
@@ -162,10 +167,6 @@
 	  font-size: 1em;
 	}
 	
-	.download {
-	  font-size: 0.8em;
-	}
-	
 	.download button {
 	  font-size: 0.8em;
 	}
@@ -187,4 +188,23 @@
     	  padding: 1rem;
 	}
 }
+
+@media (max-width: 600px) {
+	
+.works .pic h3, .works .pic h4 {
+		font-size: 0.4em;
+	}
+	
+	.download > h5 {
+          font-size: 0.7em;
+          margin: 0.5rem auto;
+    	}
+	
+	.download > p {
+	  font-size: 1.1em;
+          margin: 0.5rem auto;
+	}
+}
+
+
 
