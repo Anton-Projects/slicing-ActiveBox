@@ -292,7 +292,7 @@
 /* Section Download */
 .download {
     display: flex;
-    width: 60%;
+    width: 80%;
     flex-direction: column;
     margin: 6rem auto;
     text-align: center;
