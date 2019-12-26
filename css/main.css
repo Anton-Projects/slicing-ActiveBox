@@ -1,0 +1,332 @@
+/* section Features */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 75%;
+    text-align: center;
+}
+
+.features .feature {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 3rem auto;
+    padding: 0.5rem;
+    /* position: relative; */
+    border: 1px solid #fff;
+}
+
+.features .feature:hover {
+    border: 1px solid #999;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    margin-bottom: 1rem;
+}
+
+.feature img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 1.5rem auto;
+}
+
+/* section Works */
+.works {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+}
+
+.works .pic {
+    flex: 24%;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.works .pic h3 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+		font-size: 1em;
+
+}
+
+.works .pic h4 {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+	font-size: 1em;
+}
+
+.works .pic:hover img {
+    display: none;
+}
+
+.works .pic:hover h3, .works .pic:hover h4 {
+    display: block;
+}
+
+.works .pic-one:hover {
+    background-image: url('pic11.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic-two:hover {
+    background-image: url('pic21.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic-three:hover {
+    background-image: url('pic31.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic-four:hover {
+    background-image: url('pic41.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic-five:hover {
+    background-image: url('pic51.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic-six:hover {
+    background-image: url('pic61.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic-seven:hover {
+    background-image: url('pic71.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic-eight:hover {
+    background-image: url('pic81.jpg');
+    background-size: cover;
+    border: 1px solid #65f;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works .pic img {
+    width: 100%;
+    height: auto;
+}
+
+/* section Our Team*/
+.our-team {
+    display: flex;
+    margin: 1rem auto;
+    width: 70%;
+    text-align: center;
+}
+
+.our-team span {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 1rem;
+}
+
+.our-team i {
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #999;
+    color: #666;
+    margin-right: 0.2rem;
+}
+
+.our-team i:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin: 4rem auto;
+    position: relative;
+    text-align: left;
+    padding-bottom: 3rem;
+}
+
+.member-one:before {
+    padding-top: 100%;
+    display: block;
+    content: '';
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.member-two:before {
+    padding-top: 100%;
+    display: block;
+    content: '';
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.member-three:before {
+    padding-top: 100%;
+    display: block;
+    content: '';
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.member-four:before {
+    padding-top: 100%;
+    display: block;
+    content: '';
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #000;
+}
+
+.team img:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.team h5 {
+    color: #f00;
+    margin-top: 0.5rem;
+}
+
+.team h2 {
+    font-weight: normal;
+    margin-top: 0.5rem;
+}
+
+.team p {
+    margin-top: 0.5rem;
+}
+
+/* Section Testimonials */
+.testimonials {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.testimonial-images, .testimonial-text {
+    flex: 50%;
+}
+
+.testimonial-text {
+    font-family: 'Raleway', sans-serif;
+    background: #53354a;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.testimonial-text p {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    font-style: italic;
+    width: 30%;
+    font-family: 'Cardo', sans-serif;
+}
+
+.testimonial-text p:after {
+    width: 100%;
+    display: block;
+    content: 'Susan Sims, Interaction Designer at XYZ';
+    font-family: 'Cardo', sans-serif;
+    font-size: 0.7em;
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+.testimonials .image-one img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Section Download */
+.download {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin: 6rem auto;
+    text-align: center;
+}
+
+.download p {
+    font-size: 28px;
+    margin: 1.5rem auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.download h5 {
+    font-size: 13px;
+    margin: 1.5rem auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.download button {
+    border-radius: 2px;
+    background-color: #e84545;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    border: 1px solid #e84545;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.download button:hover {
+    border: 1px solid #65f;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.team p, .feature p {
+    font-size: 1.1em;
+}
