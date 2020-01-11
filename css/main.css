@@ -8,8 +8,8 @@
 }
 
 .features .feature {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     width: 30%;
     margin: 3rem auto;
     padding: 0.5rem;
@@ -23,15 +23,43 @@
     border-radius: 5px;
 }
 
-.feature h3 {
-    margin-bottom: 1rem;
+.feature .img-container {
+	display: flex;
+	width: 50%;
+	height: 5.5rem;
+	margin: 2rem auto;
+}
+.feature .img-container img {
+    width: auto;
+    height: 100%;
+	margin: 0 auto;
+    /* display: block; */
+    /* margin: 1.5rem auto; */
 }
 
-.feature img {
-    width: 25%;
-    height: 25%;
-    display: block;
-    margin: 1.5rem auto;
+.feature h3 {
+    margin: 1rem auto;
+	font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+
+}
+
+.feature p {
+	font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+
 }
 
 /* section Works */
@@ -55,7 +83,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-		font-size: 1em;
+    font-size: 1em;
 
 }
 
@@ -80,7 +108,6 @@
 .works .pic-one:hover {
     background-image: url('../images/pic11.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
@@ -88,7 +115,6 @@
 .works .pic-two:hover {
     background-image: url('../images/pic21.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
@@ -96,7 +122,6 @@
 .works .pic-three:hover {
     background-image: url('../images/pic31.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
@@ -104,7 +129,6 @@
 .works .pic-four:hover {
     background-image: url('../images/pic41.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
@@ -112,7 +136,6 @@
 .works .pic-five:hover {
     background-image: url('../images/pic51.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
@@ -120,7 +143,6 @@
 .works .pic-six:hover {
     background-image: url('../images/pic61.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
@@ -128,7 +150,6 @@
 .works .pic-seven:hover {
     background-image: url('../images/pic71.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
@@ -136,14 +157,13 @@
 .works .pic-eight:hover {
     background-image: url('../images/pic81.jpg');
     background-size: cover;
-    border: 1px solid #65f;
     cursor: pointer;
     overflow: hidden;
 }
 
 .works .pic img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* section Our Team*/
@@ -163,11 +183,17 @@
 }
 
 .our-team i {
-    display: block;
-    padding: 0.5rem;
-    border: 1px solid #999;
+    display: flex;
+    /* padding: 0.8rem; */
+    border: 1px solid #e8ecee;
     color: #666;
     margin-right: 0.2rem;
+	opacity: 0.6;
+	flex: 0 0 2.5rem;
+	height: 2.5rem;
+	align-items: center;
+	justify-content: center;
+	/* text-align: center; */
 }
 
 .our-team i:hover {
@@ -232,18 +258,43 @@
     cursor: pointer;
 }
 
-.team h5 {
-    color: #f00;
+.our-team .team h2 {
     margin-top: 0.5rem;
+	 font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2d3033;
 }
 
-.team h2 {
-    font-weight: normal;
+.our-team .team h5 {
     margin-top: 0.5rem;
+	 font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e84545;
 }
 
-.team p {
+.our-team .team p {
     margin-top: 0.5rem;
+	font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6c7279;
 }
 
 /* Section Testimonials */
@@ -262,15 +313,17 @@
     font-family: 'Raleway', sans-serif;
     background: #53354a;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.8em;
+	position: relative;
 }
 
 .testimonial-text p {
+	
     position: absolute;
     top: 25%;
-    left: 55%;
+    left: 10%;
     font-style: italic;
-    width: 30%;
+    width: 60%;
     font-family: 'Cardo', sans-serif;
 }
 
@@ -287,6 +340,28 @@
 .testimonials .image-one img {
     width: 100%;
     height: 100%;
+}
+
+.dots {
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 0.6rem;
+    width: 0.6rem;
+    margin: 0 0.3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.2;
+ }
+
+.dot:nth-child(2) {
+    opacity: 1;
+    background-color: #fff;
 }
 
 /* Section Download */

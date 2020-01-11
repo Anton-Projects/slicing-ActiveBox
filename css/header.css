@@ -51,9 +51,10 @@ nav > ul li a {
     text-decoration: none;
     color: #fff;
     margin-left: 1rem; 
-    padding: 1rem 0.2rem; 
+    padding: 1rem 0.5rem; 
     border-radius: 5px;
     border: 1px solid transparent;
+	font-family: 'Ralway', sans-serif;
 }
 
 nav > ul li a:hover {
@@ -72,18 +73,30 @@ nav > ul li a:hover {
 .header-text h1 {
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
+	font-size: 4rem;
+	font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: center;
 }
 
-.header-text span {
+.header-text span, .footer-info span:first-child {
     display: block;
-
 }
 
 .header-text p {
-    width: 75%;
+    /* width: 75%; */
     font-family: 'Ralway', sans-serif;
-    font-size: 0.8em;
-    margin: 1rem auto;
+    font-size: 1.5em;
+    margin: 2rem auto;
+	font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
 }
 
 .header-text button {
@@ -93,6 +106,12 @@ nav > ul li a:hover {
     color: #fff;
     border-radius: 2px;
     border: 1px solid #e84545;
+	font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  text-align: center;
 }
 
 .header-text button:hover {
