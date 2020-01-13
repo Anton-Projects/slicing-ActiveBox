@@ -4,103 +4,219 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ActiveBox Anton's Project</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Cardo|Open+Sans|Raleway&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ActiveBox Demo2</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="site-header">
+        <nav class="nav">
             <div class="logo">
-				<img src="images/logo.png">
+                <img src="images/logo.png" alt="">
             </div>
 
             <button class="show" id="show" onclick="showMenu()">MENU</button>
             <button class="hide" id="hide" onclick="hideMenu()">CLOSE</button>
 
             <ul id="menu-list">
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">WORKS</a></li>
-                <li><a href="#">OUR TEAM</a></li>
-                <li><a href="#">TESTIMONIALS</a></li>
-                <li><a href="#">DOWNLOAD</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#our-team">Our Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#download">Download</a></li>
             </ul>
         </nav>
-        <div class="header-text">
-            <h1>YOUR FAVOURITE ONE PAGE <span>MULTI PURPOSE TEMPLATE</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, sed provident laudantium veniam?</p>
-            <button onclick="">Find out more</button>
+        <div class="title">
+            <h1>Your Favorite One Page<br>Multi Purpose Template</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna<br>vel scelerisque nisl consectetur et.</p>
+            <a href="#">Find Out More</a>
         </div>
     </header>
+    <main class="site-main">
+        <section class="features" id="features">
+            <div class="feature">
+                <div class="picture"><img src="images/pencil.jpg" alt=""></div>
+                <h3>easily customised</h3>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla.</p>
+            </div>
+            <div class="feature">
+                <div class="picture"><img src="images/screen.jpg" alt=""></div>
+                <h3>responsive ready</h3>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla.</p>
+            </div>
+            <div class="feature">
+                <div class="picture"><img src="images/lamp.jpg" alt=""></div>
+                <h3>Modern design</h3>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla.</p>
+            </div>
+            <div class="feature">
+                <div class="picture"><img src="images/atom.jpg" alt=""></div>
+                <h3>Clean code</h3>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla.</p>
+            </div>
+            <div class="feature">
+                <div class="picture"><img src="images/bag.jpg" alt=""></div>
+                <h3>Ready to Ship</h3>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla.</p>
+            </div>
+            <div class="feature">
+                <div class="picture"><img src="images/cloud.jpg" alt=""></div>
+                <h3>Download for Free</h3>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla.</p>
+            </div>
 
-    <main>
-        <section class="features">
-            <div class="feature feature-one"><div class="img-container"><img src="images/pencil.jpg" alt=""></div><h3>EASILY CUSTOMIZED</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae natus asperiores illo, quibusdam quidem aperiam fuga ratione.</p></div>
-            <div class="feature feature-two"><div class="img-container"><img src="images/screen.jpg" alt=""></div><h3>RESPONSIVE READY</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae natus asperiores illo, quibusdam quidem aperiam fuga ratione.</p></div>
-            <div class="feature feature-three"><div class="img-container"><img src="images/lamp.jpg" alt=""></div><h3>MODERN DESIGN</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae natus asperiores illo, quibusdam quidem aperiam fuga ratione.</p></div>
-            <div class="feature feature-four"><div class="img-container"><img src="images/atom.jpg" alt=""></div><h3>CLEAN CODE</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae natus asperiores illo, quibusdam quidem aperiam fuga ratione.</p></div>
-            <div class="feature feature-five"><div class="img-container"><img src="images/bag.jpg" alt=""></div><h3>READY TO SHIP</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae natus asperiores illo, quibusdam quidem aperiam fuga ratione.</p></div>
-            <div class="feature feature-six"><div class="img-container"><img src="images/cloud.jpg" alt=""></div><h3>DOWNLOAD FOR FREE</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam recusandae natus asperiores illo, quibusdam quidem aperiam fuga ratione.</p></div>
         </section>
 
-        <section class="works">
-            <div class="pic pic-one"><img src="images/pic1.jpg" alt=""><h3>PROJECT NAME:</h3><h4>Име на проект1</h4></div>
-            <div class="pic pic-two"><img src="images/pic2.jpg" alt=""><h3>PROJECT NAME:</h3><h4>Име на проект2</h4></div>
-            <div class="pic pic-three"><img src="images/pic3.jpg" alt=""><h3>PROJECT NAME:</h3><h4>UI Design</h4></div>
-            <div class="pic pic-four"><img src="images/pic4.jpg" alt=""><h3>PROJECT NAME:</h3><h4>Име на проект4</h4></div>
-            <div class="pic pic-five"><img src="images/pic5.jpg" alt=""><h3>PROJECT NAME:</h3><h4>Име на проект5</h4></div>
-            <div class="pic pic-six"><img src="images/pic6.jpg" alt=""><h3>PROJECT NAME:</h3><h4>Име на проект6</h4></div>
-            <div class="pic pic-seven"><img src="images/pic7.jpg" alt=""><h3>PROJECT NAME:</h3><h4>Име на проект7</h4></div>
-            <div class="pic pic-eight"><img src="images/pic8.jpg" alt=""><h3>PROJECT NAME:</h3><h4>Име на проект8</h4></div>
+        <section class="works" id="works">
+            <div class="work">
+                <img src="images/pic1.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic2.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic3.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic4.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic5.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic6.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic7.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pic8.jpg" alt="">
+                <div class="work-text">
+                    <h4>PROJECT NAME</h4>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
         </section>
 
-        <section class="our-team">
-            <div class="team member-one"><img src="images/member1.jpg" alt=""><h2>Ruth Woods</h2><h5>FOUNDER CEO</h5><p>Lorem culpa corrupti delectus itaque nisi dolores aut eligendi dolor atque modi ut. Lorem consectetur adipisicing elitipsum dolor sit amet consectetur adipisicing elit.</p><span><i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i></span></div>
-            <div class="team member-two"><img src="images/member2.jpg" alt=""><h2>Timothy Reed</h2><h5>CO_FOUNDER DEVELOPER</h5><p>Lorem culpa corrupti delectus itaque nisi dolores aut eligendi dolor atque modi ut. Lorem consectetur adipisicing elitipsum dolor sit amet consectetur adipisicing elit.</p><span><i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i></span></div>
-            <div class="team member-three"><img src="images/member3.jpg" alt=""><h2>Victoria Valdez</h2><h5>UI DESIGNER</h5><p>Lorem culpa corrupti delectus itaque nisi dolores aut eligendi dolor atque modi ut. Lorem consectetur adipisicing elitipsum dolor sit amet consectetur adipisicing elit.</p><span><i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i></span></div>
-            <div class="team member-four"><img src="images/member4.jpg" alt=""><h2>Beverly Little</h2><h5>DATA SCIENTIST</h5><p>Lorem culpa corrupti delectus itaque nisi dolores aut eligendi dolor atque modi ut. Lorem consectetur adipisicing elitipsum dolor sit amet consectetur adipisicing elit.</p><span><i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i></span></div>
+        <section class="our-team" id="our-team">
+            <div class="team">
+                <div class="member-photo">
+                    <img src="images/member1.jpg" alt="">
+                </div>
+                <h3>Ruth Woods</h3>
+                <h4>Founder, CEO</h4>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <div class="social">
+                    <i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="team">
+                <div class="member-photo">
+                    <img src="images/member2.jpg" alt="">
+                </div>
+                <h3>Timothy Reed</h3>
+                <h4>Co-Founder, Developer</h4>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <div class="social">
+                    <i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="team">
+                <div class="member-photo">
+                    <img src="images/member3.jpg" alt="">
+                </div>
+                <h3>Victoria Valdez</h3>
+                <h4>UI Designer</h4>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <div class="social">
+                    <i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="team">
+                <div class="member-photo">
+                    <img src="images/member4.jpg" alt="">
+                </div>
+                <h3>Beverly Little</h3>
+                <h4>Data Scientist</h4>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                <div class="social">
+                    <i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i>
+                </div>
+            </div>
         </section>
 
-        <section class="testimonials">
-            <div class="testimonial-images image-one"><img src="images/testimonial1.jpg" alt=""></div>
-            <div class="testimonial-text text-one"><p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
-				<div class="dots">
-					<span class="dot"></span>
-					<span class="dot"></span>
-					<span class="dot"></span>
-					<span class="dot"></span>
-					<span class="dot"></span>
-				</div>	
-			</div>
-			
-        </section>
+        <section class="testimonials" id="testimonials">
+            <div class="testimonials-photo">
+                <img src="images/testimonial1.jpg" alt="">   
+            </div>
+            <div class="testimonials-text">
+                <div class="opinion">
+                    <h4>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h4>
+                    <h5>Susan Sims, Interaction Designer at XYZ</h5>
+                    <div class="dots">
+				    	<span class="dot"></span>
+				    	<span class="dot"></span>
+				    	<span class="dot"></span>
+				    	<span class="dot"></span>
+				    	<span class="dot"></span>
+                    </div>
+                </div>
+            </div>
 
-        <section class="download">
+        </section>
+        <section class="download" id="download">
             <p>Are You Ready to Start? Download Now For Free!</p>
-            <h5>Fusce dapibus, tellus ac cursus commodo</h5>
-            <button onclick="">DOWNLOAD HERE</button>
+            <p>Fusce dapibus, tellus ac cursus commodo</p>
+            <a href="">Download Here</a>
+            
         </section>
     </main>
-
-    <footer>
-        <section class="footer-links">
-            <section class="link link-one">
-                <h5>LOCATION</h5><p>3481 Melrose Place<br> Beverly Hills, CA 90210</p>
-            </section>
-            <section class="link link-two">
-                <h5>SHARE WITH LOVE</h5>
+    <footer class="site-footer">
+        <section class="links">
+            <div class="location">
+                <h4>Location</h4>
+                <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+            </div>
+            <div class="social-footer">
+                <h4>Share with love</h4>
                 <span><i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i></span>
-            </section>
-            <section class="link link-three">
-                <h5>ABOUT ACTIVEBOX</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt cum facilis pariatur.</p>
-            </section>
+            </div>
+            <div class="about">
+                <h4>About Activebox</h4>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            </div>
         </section>
-
-        <section class="footer-info">
-           <p>Copyright&copy; 2015 ActiveBox. All Rights Reserved <span>Made with <i class="fa fa-heart"></i> <span>by Kamal Chaneman</span></span></p>
+        <section class="info">
+            <p>Copyright © 2015 ActiveBox. All Rights Reserved<br> Made with <span class="heart"> by Kamal Chaneman</span></p>
         </section>
     </footer>
 
@@ -118,7 +234,5 @@
             document.getElementById("show").style.display="block";
         }
     </script>
-  
-
 </body>
 </html>
