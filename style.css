@@ -510,7 +510,7 @@ nav .show, nav .hide {
 }
 
 .site-footer .info p {
-font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', 'Webdings', sans-serif;
   font-size: 0.8em;
   line-height: 1.64;
   text-align: center;
